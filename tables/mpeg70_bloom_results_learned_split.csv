@@ -1,0 +1,2 @@
+tree,split,M,k_root,k_child,topk_leaf,rerank_k,mof_leaf_acc,hybrid_acc,zernike_full_acc,avg_route_time_s,zern_full_time_s_per_query,num_test
+learned+analytic,80/20,1024,6,4,3,60,0.3058823529411765,0.592156862745098,0.592156862745098,0.0018292576658959481,0.012410329369937672,255

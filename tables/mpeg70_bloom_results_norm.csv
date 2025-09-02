@@ -1,0 +1,2 @@
+leaf_mode,ensemble_k,normalize,distance,rerank_k,mof_leaf_acc,hybrid_acc,avg_route_time_s,num_queries,m0,max_m
+ensemble,3,zscore,cosine,60,0.1011764705882353,0.6407843137254902,0.0009607533847584444,1275,1024,8192

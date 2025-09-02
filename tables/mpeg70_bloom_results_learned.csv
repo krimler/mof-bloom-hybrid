@@ -1,0 +1,2 @@
+tree,M,k_root,k_child,topk_leaf,rerank_k,mof_leaf_acc,hybrid_acc,avg_route_time_s,num_queries
+learned+analytic,1024,6,4,3,60,0.48627450980392156,0.7874509803921569,0.0017880664152257583,1275
