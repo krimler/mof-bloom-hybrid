@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mof"
+version = "0.1.0"
+description = "Mixed Order Functionals (MOF): descriptors, Bloom prefilter, experiments"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["mof", "baselines", "datasets"]
+
