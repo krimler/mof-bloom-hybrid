@@ -58,8 +58,14 @@ Python ≥ 3.9 recommended.
 
 ### Experiment 1: Synthetic Relativity
 
+
 ```bash
 PYTHONPATH=. python experiments/nd_demo.py
+```
+Generates csv.
+
+```bash
+PYTHONPATH=. python experiments/plots_nd_demo.py
 ```
 Generates `figures/nd_scatter_combined.pdf`.
 
@@ -67,11 +73,12 @@ Generates `figures/nd_scatter_combined.pdf`.
 
 ```bash
 # Prefilter and hybrid retrieval
-PYTHONPATH=. python experiments/mpeg70_bloom_prefilter_norm.py --root data/MPEG7dataset --top-k 60
+PYTHONPATH=. python experiments/mpeg70_baselines_compare_split.py
 
 # Plot results
-PYTHONPATH=. python experiments/plots_mpeg_bloom.py --results tables/mpeg70_bloom_results_norm.csv
+PYTHONPATH=. python experiments/plots_mpeg_split_combined.py
 ```
+
 Generates `figures/mpeg70_split_combined_bars.pdf`.
 
 ### Experiment 3: Corneal Endothelium Morphometry
