@@ -1,6 +1,6 @@
 # Mixed Order Functionals (MOF) with Bloom Prefilter and Biomedical Extension
 
-This repository accompanies the IEEE Access manuscript *Mixed Order Functionals: Symmetry-Filtered Support Projections with Stability and PAC Guarantees*.
+This repository accompanies the *** manuscript *Mixed Order Functionals: Symmetry-Filtered Support Projections with Stability and PAC Guarantees*.
 
 We provide the **theory, code, and experiments** for Mixed Order Functionals (MOF), including:
 - Analytic-reference MOF (AR-MOF)
